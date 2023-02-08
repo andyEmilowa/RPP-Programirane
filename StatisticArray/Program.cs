@@ -16,7 +16,8 @@ namespace StatisticArray
             Console.WriteLine(OptionsManager.CountLess100(arr));
             Console.WriteLine(OptionsManager.MaxNum(arr));
             OptionsManager.EvenNumbers(arr);
-          
+            Console.WriteLine(OptionsManager.SumOfEvenNumbers(arr));
+            Console.WriteLine(OptionsManager.CountOfEvenNumbers(arr));
             arr = OptionsManager.ReverseArr(arr);
             OptionsManager.PrintArr(arr);
 
