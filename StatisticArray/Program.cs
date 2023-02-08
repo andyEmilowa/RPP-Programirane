@@ -15,6 +15,8 @@ namespace StatisticArray
             }
             Console.WriteLine(OptionsManager.CountLess100(arr));
             Console.WriteLine(OptionsManager.MaxNum(arr));
+            OptionsManager.EvenNumbers(arr);
+          
             arr = OptionsManager.ReverseArr(arr);
             OptionsManager.PrintArr(arr);
 
